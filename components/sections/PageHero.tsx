@@ -14,7 +14,7 @@ export function PageHero({
   return (
     <section className="relative isolate overflow-hidden">
       <HeroBackdrop />
-      <Container className="py-24 sm:py-28">
+      <Container className="pb-24 pt-36 sm:pb-28 sm:pt-40">
         <Reveal className="flex max-w-2xl flex-col gap-4">
           <span className="inline-flex w-fit items-center rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-sand">
             {eyebrow}
