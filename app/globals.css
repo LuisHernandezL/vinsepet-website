@@ -1,26 +1,82 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+ * Brand palette (see odd/tasks/marine-survey-site.md):
+ * navy  #222E50 — primary dark / hero / footer
+ * teal  #007991 — primary accent / buttons / links
+ * green #439A86 — secondary accent
+ * mint  #BCD8C1 — soft backgrounds / chips
+ * sand  #E9D985 — highlights / CTA accents
+ */
+@theme {
+  --color-navy: #222e50;
+  --color-navy-50: #eef0f5;
+  --color-navy-900: #161d34;
+  --color-teal: #007991;
+  --color-teal-dark: #005b6e;
+  --color-green: #439a86;
+  --color-mint: #bcd8c1;
+  --color-mint-50: #f2f8f3;
+  --color-sand: #e9d985;
+
+  --color-background: #ffffff;
+  --color-foreground: var(--color-navy);
+
+  --font-heading: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-wave: wave 14s ease-in-out infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-2%) translateY(1%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .animate-wave {
+    animation: none !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-sand);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--color-sand);
+  color: var(--color-navy);
 }

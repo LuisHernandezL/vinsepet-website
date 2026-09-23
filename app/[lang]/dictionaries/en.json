@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cta": "Request a Survey",
+    "languageLabel": "Language",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "footer": {
+    "description": "Independent cargo and marine surveyors serving owners, insurers, terminal operators and cargo interests across Venezuela and the Caribbean.",
+    "linksTitle": "Links",
+    "contactTitle": "Contact",
+    "socialsTitle": "Follow us",
+    "hours": "24/7 availability",
+    "addressLabel": "Address",
+    "rights": "All rights reserved."
+  },
+  "redirect": {
+    "title": "Redirecting…",
+    "message": "Taking you to the Spanish version of {siteName}.",
+    "link": "Continue manually"
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "Page not found",
+    "message": "The page you are looking for doesn't exist or was moved to another address.",
+    "cta": "Back to home"
+  },
+  "common": {
+    "readMore": "Read more",
+    "allServices": "View all services",
+    "learnMore": "Learn more",
+    "skipToContent": "Skip to main content"
+  },
+  "home": {
+    "meta": {
+      "title": "Home",
+      "description": "{siteName} provides independent cargo and marine surveys at the main ports of Venezuela and the Caribbean: draft surveys, bunker, on/off hire condition and more."
+    },
+    "hero": {
+      "eyebrow": "Cargo & Marine Surveyors",
+      "title": "Technical certainty in every marine survey",
+      "subtitle": "Independent surveyors available 24/7 at the main ports of Venezuela and the Caribbean. Bilingual, traceable reports ready to support any claim.",
+      "primaryCta": "Request a survey",
+      "secondaryCta": "View services",
+      "scrollHint": "Discover more"
+    },
+    "marquee": {
+      "title": "Ports we cover"
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Marine survey services",
+      "subtitle": "Full coverage for every stage of the operation: from cargo quantification to claims resolution.",
+      "cta": "View all services"
+    },
+    "methodology": {
+      "eyebrow": "Our method",
+      "title": "A Commitment to Results",
+      "quote": "Every report we sign is a technical document that must hold up in court, in front of an underwriter, or before a demanding owner.",
+      "quoteAttribution": "The {siteName} surveying team",
+      "capabilitiesTitle": "Key capabilities",
+      "capabilities": [
+        "Independent surveyors with technical training",
+        "Bilingual reports, in Spanish and English",
+        "24/7 availability at the main ports",
+        "Documented chain of custody for every sample",
+        "Calibrated, traceable measuring equipment",
+        "Emergency response in under 24 hours"
+      ]
+    },
+    "advantages": {
+      "eyebrow": "Why choose us",
+      "title": "Our Competitive Advantages",
+      "items": [
+        {
+          "title": "Full independence",
+          "description": "We represent no carrier or terminal: our technical opinion answers only to the evidence."
+        },
+        {
+          "title": "Regional coverage",
+          "description": "Operational presence at the main ports of Venezuela and deployment capacity across the Caribbean."
+        },
+        {
+          "title": "24/7 availability",
+          "description": "Vessels don't wait: we cover operations and emergencies around the clock, every day."
+        },
+        {
+          "title": "Bilingual reporting",
+          "description": "Reports in Spanish and English, ready for owners, insurers and international authorities."
+        },
+        {
+          "title": "Documentary rigor",
+          "description": "Photography, measurements and chain of custody that support every technical conclusion."
+        },
+        {
+          "title": "Fast response",
+          "description": "Quick surveyor coordination and timely delivery of preliminary and final reports."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "By the numbers",
+      "title": "Over a decade supporting marine operations",
+      "items": [
+        { "value": 15, "suffix": "+", "label": "Years of experience" },
+        { "value": 1200, "suffix": "+", "label": "Surveys completed" },
+        { "value": 8, "suffix": "", "label": "Ports covered" },
+        { "value": 24, "suffix": "/7", "label": "Availability" }
+      ]
+    },
+    "cta": {
+      "title": "Let's build your next survey together",
+      "subtitle": "Tell us about your operation and we'll coordinate an independent surveyor at the port you need.",
+      "button": "Contact us"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About Us",
+      "description": "Meet {siteName}: independent cargo and marine surveyors with over a decade of experience in Venezuela and the Caribbean."
+    },
+    "hero": {
+      "eyebrow": "About Us",
+      "title": "Independent surveyors with a technical calling",
+      "subtitle": "We support owners, insurers, terminal operators and cargo interests with objective, well-documented surveys."
+    },
+    "story": {
+      "eyebrow": "Our story",
+      "title": "Trained on the quay, not behind a desk",
+      "paragraphs": [
+        "{siteName} was founded to provide truly independent surveyors at Venezuela's ports: professionals who answer only to the technical evidence, with no conflict of interest with carriers, terminals or shippers.",
+        "Over time, we expanded our coverage to the main ports of the Caribbean and built a team capable of handling everything from a routine draft survey to a complex, time-pressured cargo damage claim."
+      ]
+    },
+    "missionVision": {
+      "missionTitle": "Mission",
+      "mission": "To deliver accurate, timely and impartial marine surveys that reduce the risk and uncertainty of every cargo operation.",
+      "visionTitle": "Vision",
+      "vision": "To be the regional reference in cargo and marine surveying, recognised for our technical rigor and our availability."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        { "title": "Independence", "description": "Our technical opinion is not up for negotiation." },
+        { "title": "Precision", "description": "Every measurement and every figure is verifiable." },
+        { "title": "Availability", "description": "Present whenever the vessel needs us, 24/7." },
+        { "title": "Confidentiality", "description": "Discreet handling of sensitive information for every client." }
+      ]
+    },
+    "certifications": {
+      "title": "What backs us up",
+      "items": [
+        "Independent surveyors with ongoing technical training",
+        "24/7 availability at the main ports",
+        "Reports in Spanish and English",
+        "Coverage across Venezuela and the Caribbean"
+      ]
+    },
+    "cta": {
+      "title": "Want to know more about our team?",
+      "subtitle": "Write to us and we'll gladly explain how we work.",
+      "button": "Talk to us"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Services",
+      "description": "Draft surveys, bunker surveys, on/off hire condition, cargo damage and more. Explore {siteName}'s marine survey services."
+    },
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Surveys for every stage of your operation",
+      "subtitle": "From cargo quantification to claims resolution, we offer complete technical coverage."
+    },
+    "listTitle": "Our Services",
+    "cta": {
+      "title": "Need a surveyor for your next operation?",
+      "subtitle": "Tell us the port, date and cargo type: we'll coordinate an independent surveyor.",
+      "button": "Request a quote"
+    }
+  },
+  "projects": {
+    "meta": {
+      "title": "Projects",
+      "description": "Cargo and marine survey case studies carried out by {siteName} at ports across Venezuela and the Caribbean."
+    },
+    "hero": {
+      "eyebrow": "Projects",
+      "title": "Survey case studies from real ports",
+      "subtitle": "A sample of the operations we've surveyed across different ports, cargo types and service categories."
+    },
+    "filters": {
+      "allCategories": "All services",
+      "categoryLabel": "Service",
+      "portLabel": "Port",
+      "allPorts": "All ports",
+      "yearLabel": "Year",
+      "cargoLabel": "Cargo",
+      "resultsCount": "{count} projects found",
+      "noResults": "No projects match these filters."
+    },
+    "cta": {
+      "title": "Your operation could be the next success story",
+      "subtitle": "Tell us the details and we'll coordinate the survey.",
+      "button": "Contact us"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Contact {siteName} to coordinate a cargo or marine survey in Venezuela and the Caribbean. 24/7 availability."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's coordinate your next survey",
+      "subtitle": "Write to us, call us, or fill out the form. We respond with 24/7 availability."
+    },
+    "info": {
+      "title": "Contact information",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours"
+    },
+    "ports": {
+      "title": "Ports we cover",
+      "subtitle": "Operational presence at the main ports of Venezuela, with deployment capacity across the Caribbean."
+    },
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "Fill out the form and your email client will open with the details ready to send to our team.",
+      "name": "Full name",
+      "company": "Company",
+      "email": "Email address",
+      "phone": "Phone",
+      "service": "Service of interest",
+      "serviceDefault": "Select a service",
+      "message": "Message",
+      "messagePlaceholder": "Tell us the port, date and cargo or operation type.",
+      "submit": "Send message",
+      "requiredHint": "* Required fields"
+    }
+  }
+}

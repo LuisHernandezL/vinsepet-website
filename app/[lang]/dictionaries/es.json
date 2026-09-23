@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "cta": "Solicitar Inspección",
+    "languageLabel": "Idioma",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú"
+  },
+  "footer": {
+    "description": "Inspectores independientes de carga y buques al servicio de armadores, aseguradoras, operadores portuarios y dueños de carga en Venezuela y el Caribe.",
+    "linksTitle": "Enlaces",
+    "contactTitle": "Contacto",
+    "socialsTitle": "Síguenos",
+    "hours": "Disponibilidad 24/7",
+    "addressLabel": "Dirección",
+    "rights": "Todos los derechos reservados."
+  },
+  "redirect": {
+    "title": "Redirigiendo…",
+    "message": "Te estamos llevando a la versión en español de {siteName}.",
+    "link": "Continuar manualmente"
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "Página no encontrada",
+    "message": "La página que buscas no existe o fue movida a otra dirección.",
+    "cta": "Volver al inicio"
+  },
+  "common": {
+    "readMore": "Leer más",
+    "allServices": "Ver todos los servicios",
+    "learnMore": "Conocer más",
+    "skipToContent": "Saltar al contenido principal"
+  },
+  "home": {
+    "meta": {
+      "title": "Inicio",
+      "description": "{siteName} ofrece inspecciones independientes de carga y buques en los principales puertos de Venezuela y el Caribe: draft surveys, bunker, condición on/off hire y más."
+    },
+    "hero": {
+      "eyebrow": "Inspectores de Carga y Buques",
+      "title": "Certeza técnica en cada inspección marítima",
+      "subtitle": "Inspectores independientes con disponibilidad 24/7 en los principales puertos de Venezuela y el Caribe. Informes bilingües, trazables y listos para sostener cualquier reclamo.",
+      "primaryCta": "Solicitar una inspección",
+      "secondaryCta": "Ver servicios",
+      "scrollHint": "Descubra más"
+    },
+    "marquee": {
+      "title": "Puertos que cubrimos"
+    },
+    "services": {
+      "eyebrow": "Qué hacemos",
+      "title": "Servicios de inspección marítima",
+      "subtitle": "Cobertura integral para cada etapa de la operación: desde la cuantificación de carga hasta la resolución de reclamos.",
+      "cta": "Ver todos los servicios"
+    },
+    "methodology": {
+      "eyebrow": "Nuestro método",
+      "title": "Compromiso de Resultados",
+      "quote": "Cada informe que firmamos es un documento técnico que debe sostenerse ante un tribunal, un asegurador o un armador exigente.",
+      "quoteAttribution": "Equipo de inspectores de {siteName}",
+      "capabilitiesTitle": "Capacidades clave",
+      "capabilities": [
+        "Inspectores independientes y con formación técnica",
+        "Informes bilingües, en español e inglés",
+        "Disponibilidad 24/7 en los principales puertos",
+        "Cadena de custodia documentada en cada muestreo",
+        "Equipos de medición calibrados y trazables",
+        "Respuesta a emergencias en menos de 24 horas"
+      ]
+    },
+    "advantages": {
+      "eyebrow": "Por qué elegirnos",
+      "title": "Nuestras Ventajas Competitivas",
+      "items": [
+        {
+          "title": "Independencia total",
+          "description": "No representamos a ninguna naviera ni terminal: nuestra opinión técnica responde solo a la evidencia."
+        },
+        {
+          "title": "Cobertura regional",
+          "description": "Presencia operativa en los principales puertos de Venezuela y capacidad de despliegue en el Caribe."
+        },
+        {
+          "title": "Disponibilidad 24/7",
+          "description": "Los buques no esperan: atendemos operaciones y emergencias a cualquier hora, todos los días."
+        },
+        {
+          "title": "Informes bilingües",
+          "description": "Reportes en español e inglés, listos para armadores, aseguradoras y autoridades internacionales."
+        },
+        {
+          "title": "Rigor documental",
+          "description": "Fotografía, mediciones y cadena de custodia que sostienen cada conclusión técnica."
+        },
+        {
+          "title": "Respuesta ágil",
+          "description": "Coordinación rápida de inspectores y entrega oportuna de informes preliminares y finales."
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "En cifras",
+      "title": "Más de una década acompañando operaciones marítimas",
+      "items": [
+        { "value": 15, "suffix": "+", "label": "Años de experiencia" },
+        { "value": 1200, "suffix": "+", "label": "Inspecciones realizadas" },
+        { "value": 8, "suffix": "", "label": "Puertos cubiertos" },
+        { "value": 24, "suffix": "/7", "label": "Disponibilidad" }
+      ]
+    },
+    "cta": {
+      "title": "Construyamos juntos su próxima inspección",
+      "subtitle": "Cuéntenos sobre su operación y coordinamos un inspector independiente en el puerto que necesite.",
+      "button": "Contáctenos"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Sobre Nosotros",
+      "description": "Conozca a {siteName}: inspectores independientes de carga y buques con más de una década de experiencia en Venezuela y el Caribe."
+    },
+    "hero": {
+      "eyebrow": "Sobre Nosotros",
+      "title": "Inspectores independientes con vocación técnica",
+      "subtitle": "Acompañamos a armadores, aseguradoras, operadores portuarios y dueños de carga con inspecciones objetivas y bien documentadas."
+    },
+    "story": {
+      "eyebrow": "Nuestra historia",
+      "title": "Formados en el muelle, no en la oficina",
+      "paragraphs": [
+        "{siteName} nació de la necesidad de contar con inspectores verdaderamente independientes en los puertos de Venezuela: profesionales que respondan únicamente a la evidencia técnica, sin conflicto de interés con navieras, terminales o cargadores.",
+        "Con el tiempo, ampliamos nuestra cobertura a los principales puertos del Caribe y consolidamos un equipo capaz de atender desde una inspección de calado de rutina hasta un reclamo complejo de daño de carga bajo presión de tiempo."
+      ]
+    },
+    "missionVision": {
+      "missionTitle": "Misión",
+      "mission": "Entregar inspecciones marítimas precisas, oportunas e imparciales que reduzcan el riesgo y la incertidumbre de cada operación de carga.",
+      "visionTitle": "Visión",
+      "vision": "Ser el referente regional en inspección de carga y buques, reconocidos por nuestro rigor técnico y nuestra disponibilidad."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "items": [
+        { "title": "Independencia", "description": "Nuestra opinión técnica no se negocia." },
+        { "title": "Precisión", "description": "Cada medición y cada cifra son verificables." },
+        { "title": "Disponibilidad", "description": "Presentes cuando el buque lo requiere, 24/7." },
+        { "title": "Confidencialidad", "description": "Manejo discreto de información sensible para cada cliente." }
+      ]
+    },
+    "certifications": {
+      "title": "Lo que nos respalda",
+      "items": [
+        "Inspectores independientes y con formación técnica continua",
+        "Disponibilidad 24/7 en los principales puertos",
+        "Informes en español e inglés",
+        "Cobertura en Venezuela y el Caribe"
+      ]
+    },
+    "cta": {
+      "title": "¿Quiere conocer más sobre nuestro equipo?",
+      "subtitle": "Escríbanos y con gusto le contamos cómo trabajamos.",
+      "button": "Hablar con nosotros"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Servicios",
+      "description": "Draft surveys, inspecciones de bunker, condición on/off hire, daño de carga y más. Conozca los servicios de inspección marítima de {siteName}."
+    },
+    "hero": {
+      "eyebrow": "Servicios",
+      "title": "Inspecciones para cada etapa de su operación",
+      "subtitle": "Desde la cuantificación de carga hasta la resolución de reclamos, ofrecemos cobertura técnica completa."
+    },
+    "listTitle": "Nuestros Servicios",
+    "cta": {
+      "title": "¿Necesita un inspector para su próxima operación?",
+      "subtitle": "Cuéntenos el puerto, la fecha y el tipo de carga: coordinamos un inspector independiente.",
+      "button": "Solicitar cotización"
+    }
+  },
+  "projects": {
+    "meta": {
+      "title": "Proyectos",
+      "description": "Casos de inspección de carga y buques ejecutados por {siteName} en puertos de Venezuela y el Caribe."
+    },
+    "hero": {
+      "eyebrow": "Proyectos",
+      "title": "Casos de inspección en puertos reales",
+      "subtitle": "Una muestra de las operaciones que hemos inspeccionado en distintos puertos, tipos de carga y categorías de servicio."
+    },
+    "filters": {
+      "allCategories": "Todos los servicios",
+      "categoryLabel": "Servicio",
+      "portLabel": "Puerto",
+      "allPorts": "Todos los puertos",
+      "yearLabel": "Año",
+      "cargoLabel": "Carga",
+      "resultsCount": "{count} proyectos encontrados",
+      "noResults": "No se encontraron proyectos con estos filtros."
+    },
+    "cta": {
+      "title": "Su operación puede ser el próximo caso de éxito",
+      "subtitle": "Cuéntenos los detalles y coordinamos la inspección.",
+      "button": "Contáctenos"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contacto",
+      "description": "Contacte a {siteName} para coordinar una inspección de carga o buque en Venezuela y el Caribe. Disponibilidad 24/7."
+    },
+    "hero": {
+      "eyebrow": "Contacto",
+      "title": "Coordinemos su próxima inspección",
+      "subtitle": "Escríbanos, llámenos o complete el formulario. Respondemos con disponibilidad 24/7."
+    },
+    "info": {
+      "title": "Información de contacto",
+      "phoneLabel": "Teléfono",
+      "emailLabel": "Correo electrónico",
+      "addressLabel": "Dirección",
+      "hoursLabel": "Horario"
+    },
+    "ports": {
+      "title": "Puertos que cubrimos",
+      "subtitle": "Presencia operativa en los principales puertos de Venezuela, con capacidad de despliegue en el Caribe."
+    },
+    "form": {
+      "title": "Envíenos un mensaje",
+      "subtitle": "Complete el formulario y se abrirá su cliente de correo con los datos listos para enviar a nuestro equipo.",
+      "name": "Nombre completo",
+      "company": "Empresa",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "service": "Servicio de interés",
+      "serviceDefault": "Seleccione un servicio",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntenos el puerto, la fecha y el tipo de carga u operación.",
+      "submit": "Enviar mensaje",
+      "requiredHint": "* Campos obligatorios"
+    }
+  }
+}
