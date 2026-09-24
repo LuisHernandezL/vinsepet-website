@@ -26,8 +26,8 @@ const inputClasses =
 
 /**
  * No backend is available on a static export, so submission builds a
- * `mailto:` link (subject + body from the fields) and opens the visitor's
- * email client instead of POSTing anywhere.
+ * WhatsApp deep link (message prefilled from the fields) and opens the chat
+ * with our number instead of POSTing anywhere.
  */
 export function ContactForm({ locale, dict }: { locale: Locale; dict: ContactFormDict }) {
   const [values, setValues] = useState({
@@ -49,8 +49,9 @@ export function ContactForm({ locale, dict }: { locale: Locale; dict: ContactFor
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    const subject = `${dict.title} — ${values.name || siteConfig.name}`;
-    const bodyLines = [
+    const lines = [
+      `${dict.title} — ${siteConfig.name}`,
+      "",
       `${dict.name}: ${values.name}`,
       `${dict.company}: ${values.company}`,
       `${dict.email}: ${values.email}`,
@@ -60,11 +61,11 @@ export function ContactForm({ locale, dict }: { locale: Locale; dict: ContactFor
       values.message,
     ];
 
-    const mailto = `mailto:${siteConfig.contact.email}?subject=${encodeURIComponent(
-      subject,
-    )}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+    const whatsappUrl = `${siteConfig.contact.whatsappHref}?text=${encodeURIComponent(
+      lines.join("\n"),
+    )}`;
 
-    window.location.href = mailto;
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   }
 
   return (

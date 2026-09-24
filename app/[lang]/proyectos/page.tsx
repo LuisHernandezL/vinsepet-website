@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import { localePath, buildLanguageAlternates } from "@/lib/i18n/routes";
+import { buildLanguageAlternates } from "@/lib/i18n/routes";
 import { interpolate } from "@/lib/i18n/interpolate";
 import { siteConfig } from "@/lib/site";
 import { services } from "@/content/services";
@@ -62,7 +62,7 @@ export default async function ProjectsPage({
         title={dict.projects.cta.title}
         subtitle={dict.projects.cta.subtitle}
         buttonLabel={dict.projects.cta.button}
-        href={localePath(locale, "contact")}
+        href={siteConfig.contact.whatsappHref}
       />
     </>
   );

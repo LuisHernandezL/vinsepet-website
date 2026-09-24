@@ -222,7 +222,7 @@
     },
     "info": {
       "title": "Contact information",
-      "phoneLabel": "Phone",
+      "phoneLabel": "Phone / WhatsApp",
       "emailLabel": "Email",
       "addressLabel": "Address",
       "hoursLabel": "Hours"
@@ -233,7 +233,7 @@
     },
     "form": {
       "title": "Send us a message",
-      "subtitle": "Fill out the form and your email client will open with the details ready to send to our team.",
+      "subtitle": "Fill out the form and WhatsApp will open with your message ready to send to our team.",
       "name": "Full name",
       "company": "Company",
       "email": "Email address",
