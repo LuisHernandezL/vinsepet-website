@@ -11,7 +11,7 @@
     "menuClose": "Cerrar menú"
   },
   "footer": {
-    "description": "Inspectores independientes de carga y buques al servicio de armadores, aseguradoras, operadores portuarios y dueños de carga en Venezuela y el Caribe.",
+    "description": "Inspectores independientes de carga y buques al servicio de armadores, aseguradoras, operadores portuarios y dueños de carga en Argentina.",
     "linksTitle": "Enlaces",
     "contactTitle": "Contacto",
     "socialsTitle": "Síguenos",
@@ -39,12 +39,12 @@
   "home": {
     "meta": {
       "title": "Inicio",
-      "description": "{siteName} ofrece inspecciones independientes de carga y buques en los principales puertos de Venezuela y el Caribe: draft surveys, bunker, condición on/off hire y más."
+      "description": "{siteName} ofrece inspecciones independientes de carga y buques en los principales puertos de Argentina: draft surveys, bunker, condición on/off hire y más."
     },
     "hero": {
       "eyebrow": "Inspectores de Carga y Buques",
       "title": "Certeza técnica en cada inspección marítima",
-      "subtitle": "Inspectores independientes con disponibilidad 24/7 en los principales puertos de Venezuela y el Caribe. Informes bilingües, trazables y listos para sostener cualquier reclamo.",
+      "subtitle": "Inspectores independientes con disponibilidad 24/7 en los principales puertos de Argentina. Informes bilingües, trazables y listos para sostener cualquier reclamo.",
       "primaryCta": "Solicitar una inspección",
       "secondaryCta": "Ver servicios",
       "scrollHint": "Descubra más"
@@ -83,7 +83,7 @@
         },
         {
           "title": "Cobertura regional",
-          "description": "Presencia operativa en los principales puertos de Venezuela y capacidad de despliegue en el Caribe."
+          "description": "Presencia operativa en los principales puertos de Argentina, con base en Buenos Aires."
         },
         {
           "title": "Disponibilidad 24/7",
@@ -122,7 +122,7 @@
   "about": {
     "meta": {
       "title": "Sobre Nosotros",
-      "description": "Conozca a {siteName}: inspectores independientes de carga y buques con más de una década de experiencia en Venezuela y el Caribe."
+      "description": "Conozca a {siteName}: inspectores independientes de carga y buques con más de una década de experiencia en Argentina."
     },
     "hero": {
       "eyebrow": "Sobre Nosotros",
@@ -133,8 +133,8 @@
       "eyebrow": "Nuestra historia",
       "title": "Formados en el muelle, no en la oficina",
       "paragraphs": [
-        "{siteName} nació de la necesidad de contar con inspectores verdaderamente independientes en los puertos de Venezuela: profesionales que respondan únicamente a la evidencia técnica, sin conflicto de interés con navieras, terminales o cargadores.",
-        "Con el tiempo, ampliamos nuestra cobertura a los principales puertos del Caribe y consolidamos un equipo capaz de atender desde una inspección de calado de rutina hasta un reclamo complejo de daño de carga bajo presión de tiempo."
+        "{siteName} nació de la necesidad de contar con inspectores verdaderamente independientes en los puertos de Argentina: profesionales que respondan únicamente a la evidencia técnica, sin conflicto de interés con navieras, terminales o cargadores.",
+        "Con el tiempo, ampliamos nuestra cobertura a los principales puertos del país, del Río de la Plata a la Hidrovía Paraná y el litoral atlántico, y consolidamos un equipo capaz de atender desde una inspección de calado de rutina hasta un reclamo complejo de daño de carga bajo presión de tiempo."
       ]
     },
     "missionVision": {
@@ -158,7 +158,7 @@
         "Inspectores independientes y con formación técnica continua",
         "Disponibilidad 24/7 en los principales puertos",
         "Informes en español e inglés",
-        "Cobertura en Venezuela y el Caribe"
+        "Cobertura en los principales puertos de Argentina"
       ]
     },
     "cta": {
@@ -187,7 +187,7 @@
   "projects": {
     "meta": {
       "title": "Proyectos",
-      "description": "Casos de inspección de carga y buques ejecutados por {siteName} en puertos de Venezuela y el Caribe."
+      "description": "Casos de inspección de carga y buques ejecutados por {siteName} en puertos de Argentina."
     },
     "hero": {
       "eyebrow": "Proyectos",
@@ -213,7 +213,7 @@
   "contact": {
     "meta": {
       "title": "Contacto",
-      "description": "Contacte a {siteName} para coordinar una inspección de carga o buque en Venezuela y el Caribe. Disponibilidad 24/7."
+      "description": "Contacte a {siteName} para coordinar una inspección de carga o buque en Argentina. Disponibilidad 24/7."
     },
     "hero": {
       "eyebrow": "Contacto",
@@ -229,7 +229,7 @@
     },
     "ports": {
       "title": "Puertos que cubrimos",
-      "subtitle": "Presencia operativa en los principales puertos de Venezuela, con capacidad de despliegue en el Caribe."
+      "subtitle": "Presencia operativa en los principales puertos de Argentina, con base en Buenos Aires."
     },
     "form": {
       "title": "Envíenos un mensaje",

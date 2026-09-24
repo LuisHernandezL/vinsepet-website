@@ -21,8 +21,8 @@ export const siteConfig = {
     whatsappHref: "https://wa.me/5491124033440",
     email: "bqsurveyors@gmail.com",
     addressLines: {
-      es: ["Av. Bolívar, Torre Marina, Piso 3", "Puerto Cabello, Carabobo, Venezuela"],
-      en: ["Av. Bolívar, Torre Marina, 3rd Floor", "Puerto Cabello, Carabobo, Venezuela"],
+      es: ["Palermo", "Buenos Aires, Argentina"],
+      en: ["Palermo", "Buenos Aires, Argentina"],
     },
     hours: {
       es: "Disponibilidad 24/7 para inspecciones y atención de emergencias",
@@ -30,8 +30,6 @@ export const siteConfig = {
     },
   },
   socials: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/company/example" },
-    { label: "Instagram", href: "https://www.instagram.com/example" },
     { label: "WhatsApp", href: "https://wa.me/5491124033440" },
   ],
 } as const;
