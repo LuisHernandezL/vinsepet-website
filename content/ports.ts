@@ -4,12 +4,12 @@ export interface Port {
   country: { es: string; en: string };
 }
 
-// Ports of call across Venezuela and the wider Caribbean basin.
+// Main Argentine ports: River Plate, Paraná waterway and Atlantic coast.
 export const ports: Port[] = [
-  { slug: "puerto-cabello", name: "Puerto Cabello", country: { es: "Venezuela", en: "Venezuela" } },
-  { slug: "la-guaira", name: "La Guaira", country: { es: "Venezuela", en: "Venezuela" } },
-  { slug: "maracaibo", name: "Maracaibo", country: { es: "Venezuela", en: "Venezuela" } },
-  { slug: "puerto-la-cruz-guanta", name: "Puerto La Cruz / Guanta", country: { es: "Venezuela", en: "Venezuela" } },
-  { slug: "puerto-ordaz", name: "Puerto Ordaz", country: { es: "Venezuela", en: "Venezuela" } },
-  { slug: "guamache", name: "Guamache", country: { es: "Venezuela", en: "Venezuela" } },
+  { slug: "buenos-aires", name: "Buenos Aires", country: { es: "Argentina", en: "Argentina" } },
+  { slug: "dock-sud", name: "Dock Sud", country: { es: "Argentina", en: "Argentina" } },
+  { slug: "bahia-blanca", name: "Bahía Blanca", country: { es: "Argentina", en: "Argentina" } },
+  { slug: "rosario-san-lorenzo", name: "Rosario / San Lorenzo", country: { es: "Argentina", en: "Argentina" } },
+  { slug: "zarate-campana", name: "Zárate / Campana", country: { es: "Argentina", en: "Argentina" } },
+  { slug: "quequen", name: "Necochea / Quequén", country: { es: "Argentina", en: "Argentina" } },
 ];

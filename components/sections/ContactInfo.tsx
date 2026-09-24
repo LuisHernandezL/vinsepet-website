@@ -17,7 +17,7 @@ export function ContactInfo({ locale, dict }: { locale: Locale; dict: ContactInf
       icon: Phone,
       label: dict.phoneLabel,
       value: siteConfig.contact.phoneDisplay,
-      href: `tel:${siteConfig.contact.phoneHref}`,
+      href: siteConfig.contact.whatsappHref,
     },
     {
       icon: Mail,
@@ -52,7 +52,13 @@ export function ContactInfo({ locale, dict }: { locale: Locale; dict: ContactInf
               </dt>
               <dd className="text-sm text-navy/80">
                 {item.href ? (
-                  <a href={item.href} className="hover:text-teal">
+                  <a
+                    href={item.href}
+                    className="hover:text-teal"
+                    {...(item.href.startsWith("http")
+                      ? { target: "_blank", rel: "noopener noreferrer" }
+                      : {})}
+                  >
                     {item.value}
                   </a>
                 ) : (

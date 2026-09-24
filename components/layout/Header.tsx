@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Locale } from "@/lib/i18n/config";
 import { localePath } from "@/lib/i18n/routes";
+import { siteConfig } from "@/lib/site";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { MobileMenu, type NavItem } from "./MobileMenu";
 
@@ -56,9 +58,16 @@ export function Header({
       <div className="relative mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link
           href={localePath(locale, "home")}
-          className="font-heading text-lg font-bold tracking-tight text-white"
+          className="rounded-lg bg-white px-2.5 py-1.5 shadow-sm"
         >
-          {siteName}
+          <Image
+            src={siteConfig.logo}
+            alt={siteName}
+            width={1440}
+            height={320}
+            priority
+            className="h-8 w-auto sm:h-9"
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
@@ -81,18 +90,20 @@ export function Header({
 
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitcher locale={locale} label={nav.languageLabel} tone="dark" />
-          <Link
-            href={localePath(locale, "contact")}
+          <a
+            href={siteConfig.contact.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-teal px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-teal-dark"
           >
             {nav.cta}
-          </Link>
+          </a>
         </div>
 
         <MobileMenu
           locale={locale}
           items={items}
-          ctaHref={localePath(locale, "contact")}
+          ctaHref={siteConfig.contact.whatsappHref}
           ctaLabel={nav.cta}
           languageLabel={nav.languageLabel}
           openLabel={nav.menuOpen}

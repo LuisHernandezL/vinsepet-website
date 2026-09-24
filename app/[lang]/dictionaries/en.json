@@ -11,7 +11,7 @@
     "menuClose": "Close menu"
   },
   "footer": {
-    "description": "Independent cargo and marine surveyors serving owners, insurers, terminal operators and cargo interests across Venezuela and the Caribbean.",
+    "description": "Independent cargo and marine surveyors serving owners, insurers, terminal operators and cargo interests across Argentina.",
     "linksTitle": "Links",
     "contactTitle": "Contact",
     "socialsTitle": "Follow us",
@@ -39,12 +39,12 @@
   "home": {
     "meta": {
       "title": "Home",
-      "description": "{siteName} provides independent cargo and marine surveys at the main ports of Venezuela and the Caribbean: draft surveys, bunker, on/off hire condition and more."
+      "description": "{siteName} provides independent cargo and marine surveys at the main ports of Argentina: draft surveys, bunker, on/off hire condition and more."
     },
     "hero": {
       "eyebrow": "Cargo & Marine Surveyors",
       "title": "Technical certainty in every marine survey",
-      "subtitle": "Independent surveyors available 24/7 at the main ports of Venezuela and the Caribbean. Bilingual, traceable reports ready to support any claim.",
+      "subtitle": "Independent surveyors available 24/7 at the main ports of Argentina. Bilingual, traceable reports ready to support any claim.",
       "primaryCta": "Request a survey",
       "secondaryCta": "View services",
       "scrollHint": "Discover more"
@@ -83,7 +83,7 @@
         },
         {
           "title": "Regional coverage",
-          "description": "Operational presence at the main ports of Venezuela and deployment capacity across the Caribbean."
+          "description": "Operational presence at the main ports of Argentina, based in Buenos Aires."
         },
         {
           "title": "24/7 availability",
@@ -122,7 +122,7 @@
   "about": {
     "meta": {
       "title": "About Us",
-      "description": "Meet {siteName}: independent cargo and marine surveyors with over a decade of experience in Venezuela and the Caribbean."
+      "description": "Meet {siteName}: independent cargo and marine surveyors with over a decade of experience in Argentina."
     },
     "hero": {
       "eyebrow": "About Us",
@@ -133,8 +133,8 @@
       "eyebrow": "Our story",
       "title": "Trained on the quay, not behind a desk",
       "paragraphs": [
-        "{siteName} was founded to provide truly independent surveyors at Venezuela's ports: professionals who answer only to the technical evidence, with no conflict of interest with carriers, terminals or shippers.",
-        "Over time, we expanded our coverage to the main ports of the Caribbean and built a team capable of handling everything from a routine draft survey to a complex, time-pressured cargo damage claim."
+        "{siteName} was founded to provide truly independent surveyors at Argentina's ports: professionals who answer only to the technical evidence, with no conflict of interest with carriers, terminals or shippers.",
+        "Over time, we expanded our coverage to the country's main ports, from the River Plate to the Paraná waterway and the Atlantic coast, and built a team capable of handling everything from a routine draft survey to a complex, time-pressured cargo damage claim."
       ]
     },
     "missionVision": {
@@ -158,7 +158,7 @@
         "Independent surveyors with ongoing technical training",
         "24/7 availability at the main ports",
         "Reports in Spanish and English",
-        "Coverage across Venezuela and the Caribbean"
+        "Coverage across Argentina's main ports"
       ]
     },
     "cta": {
@@ -187,7 +187,7 @@
   "projects": {
     "meta": {
       "title": "Projects",
-      "description": "Cargo and marine survey case studies carried out by {siteName} at ports across Venezuela and the Caribbean."
+      "description": "Cargo and marine survey case studies carried out by {siteName} at ports across Argentina."
     },
     "hero": {
       "eyebrow": "Projects",
@@ -213,7 +213,7 @@
   "contact": {
     "meta": {
       "title": "Contact",
-      "description": "Contact {siteName} to coordinate a cargo or marine survey in Venezuela and the Caribbean. 24/7 availability."
+      "description": "Contact {siteName} to coordinate a cargo or marine survey in Argentina. 24/7 availability."
     },
     "hero": {
       "eyebrow": "Contact",
@@ -222,18 +222,18 @@
     },
     "info": {
       "title": "Contact information",
-      "phoneLabel": "Phone",
+      "phoneLabel": "Phone / WhatsApp",
       "emailLabel": "Email",
       "addressLabel": "Address",
       "hoursLabel": "Hours"
     },
     "ports": {
       "title": "Ports we cover",
-      "subtitle": "Operational presence at the main ports of Venezuela, with deployment capacity across the Caribbean."
+      "subtitle": "Operational presence at the main ports of Argentina, based in Buenos Aires."
     },
     "form": {
       "title": "Send us a message",
-      "subtitle": "Fill out the form and your email client will open with the details ready to send to our team.",
+      "subtitle": "Fill out the form and WhatsApp will open with your message ready to send to our team.",
       "name": "Full name",
       "company": "Company",
       "email": "Email address",

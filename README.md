@@ -11,19 +11,19 @@ Bilingual (Spanish / English) informational website for a cargo and marine surve
 | `/{es,en}/sobre-nosotros/` | About us |
 | `/{es,en}/servicios/` | Services |
 | `/{es,en}/proyectos/` | Projects |
-| `/{es,en}/contacto/` | Contact (form opens the visitor's email client via `mailto:`) |
+| `/{es,en}/contacto/` | Contact (form opens a prefilled WhatsApp chat) |
 
 ## Configuration
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_NAME` | `Vinsepet` | Brand name used in the navbar, footer, titles and copy |
+| `NEXT_PUBLIC_SITE_NAME` | `ARS Inspecciones` | Brand name used in the navbar, footer, titles and copy |
 | `NEXT_PUBLIC_SITE_URL` | `https://www.example.com` | Public URL used for metadata |
 
 Create a `.env.local` (or `.env.production`) file:
 
 ```bash
-NEXT_PUBLIC_SITE_NAME=Vinsepet
+NEXT_PUBLIC_SITE_NAME="ARS Inspecciones"
 NEXT_PUBLIC_SITE_URL=https://www.example.com
 ```
 

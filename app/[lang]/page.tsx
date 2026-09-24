@@ -43,7 +43,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         title={dict.home.hero.title}
         subtitle={dict.home.hero.subtitle}
         primaryCta={dict.home.hero.primaryCta}
-        primaryHref={localePath(locale, "contact")}
+        primaryHref={siteConfig.contact.whatsappHref}
         secondaryCta={dict.home.hero.secondaryCta}
         secondaryHref={localePath(locale, "services")}
         scrollHint={dict.home.hero.scrollHint}
@@ -90,7 +90,7 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
         title={dict.home.cta.title}
         subtitle={dict.home.cta.subtitle}
         buttonLabel={dict.home.cta.button}
-        href={localePath(locale, "contact")}
+        href={siteConfig.contact.whatsappHref}
       />
     </>
   );

@@ -73,13 +73,15 @@ export function MobileMenu({
                   </Link>
                 );
               })}
-              <Link
+              <a
                 href={ctaHref}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="mt-2 inline-flex items-center justify-center rounded-full bg-teal px-6 py-3 text-sm font-semibold text-white transition hover:bg-teal-dark"
               >
                 {ctaLabel}
-              </Link>
+              </a>
               <div className="mt-3">
                 <LanguageSwitcher locale={locale} label={languageLabel} tone="dark" />
               </div>

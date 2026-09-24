@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
@@ -48,7 +49,15 @@ export function Footer({
     <footer className="bg-navy-900 text-white/80">
       <Container className="grid gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
         <div className="flex flex-col gap-4 lg:col-span-1">
-          <span className="font-heading text-xl font-bold text-white">{siteName}</span>
+          <span className="w-fit rounded-lg bg-white px-3 py-2">
+            <Image
+              src={siteConfig.logo}
+              alt={siteName}
+              width={1440}
+              height={320}
+              className="h-10 w-auto"
+            />
+          </span>
           <p className="text-sm leading-relaxed">{footer.description}</p>
         </div>
 
@@ -68,7 +77,9 @@ export function Footer({
             {footer.contactTitle}
           </h3>
           <a
-            href={`tel:${siteConfig.contact.phoneHref}`}
+            href={siteConfig.contact.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-start gap-2 text-sm hover:text-white"
           >
             <Phone className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />

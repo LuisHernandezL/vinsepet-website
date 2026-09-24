@@ -12,9 +12,9 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "draft-survey-urea-puerto-cabello",
+    slug: "draft-survey-urea-buenos-aires",
     category: "draft-surveys",
-    portSlug: "puerto-cabello",
+    portSlug: "buenos-aires",
     year: 2024,
     cargo: { es: "45,000 MT de urea a granel", en: "45,000 MT of bulk urea" },
     title: {
@@ -27,9 +27,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "bunker-survey-vlcc-la-guaira",
+    slug: "bunker-survey-vlcc-dock-sud",
     category: "bunker-quantity",
-    portSlug: "la-guaira",
+    portSlug: "dock-sud",
     year: 2023,
     cargo: { es: "Combustible IFO/MGO", en: "IFO/MGO bunker fuel" },
     title: {
@@ -42,9 +42,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "on-hire-bulk-carrier-puerto-ordaz",
+    slug: "on-hire-bulk-carrier-zarate-campana",
     category: "on-off-hire-condition",
-    portSlug: "puerto-ordaz",
+    portSlug: "zarate-campana",
     year: 2024,
     cargo: { es: "N/A — inspección de condición", en: "N/A — condition survey" },
     title: {
@@ -57,9 +57,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "cargo-damage-containers-puerto-cabello",
+    slug: "cargo-damage-containers-buenos-aires",
     category: "cargo-damage-loss",
-    portSlug: "puerto-cabello",
+    portSlug: "buenos-aires",
     year: 2022,
     cargo: { es: "Carga general en contenedores", en: "Containerized general cargo" },
     title: {
@@ -72,9 +72,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "hold-cleanliness-guanta",
+    slug: "hold-cleanliness-rosario",
     category: "hold-cleanliness-uttt",
-    portSlug: "puerto-la-cruz-guanta",
+    portSlug: "rosario-san-lorenzo",
     year: 2023,
     cargo: { es: "Granos a granel", en: "Bulk grain" },
     title: {
@@ -87,14 +87,14 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "loading-supervision-bauxite-puerto-ordaz",
+    slug: "loading-supervision-steel-zarate-campana",
     category: "loading-discharge-supervision",
-    portSlug: "puerto-ordaz",
+    portSlug: "zarate-campana",
     year: 2024,
-    cargo: { es: "Bauxita / alúmina", en: "Bauxite / alumina" },
+    cargo: { es: "Productos siderúrgicos", en: "Steel products" },
     title: {
-      es: "Superintendencia de carga — bauxita y alúmina",
-      en: "Cargo superintendence — bauxite and alumina",
+      es: "Superintendencia de carga — productos siderúrgicos",
+      en: "Cargo superintendence — steel products",
     },
     description: {
       es: "Supervisión continua de la operación de carga, estabilidad y cumplimiento del plan de estiba durante todo el atraque.",
@@ -102,9 +102,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "reefer-survey-la-guaira",
+    slug: "reefer-survey-dock-sud",
     category: "container-reefer",
-    portSlug: "la-guaira",
+    portSlug: "dock-sud",
     year: 2023,
     cargo: { es: "Carga perecedera refrigerada", en: "Refrigerated perishable cargo" },
     title: {
@@ -117,9 +117,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "lashing-survey-project-cargo-puerto-cabello",
+    slug: "lashing-survey-project-cargo-buenos-aires",
     category: "lashing-securing",
-    portSlug: "puerto-cabello",
+    portSlug: "buenos-aires",
     year: 2022,
     cargo: { es: "Carga de proyecto / breakbulk", en: "Project / breakbulk cargo" },
     title: {
@@ -132,9 +132,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "pre-purchase-general-cargo-maracaibo",
+    slug: "pre-purchase-general-cargo-bahia-blanca",
     category: "pre-purchase-inspection",
-    portSlug: "maracaibo",
+    portSlug: "bahia-blanca",
     year: 2021,
     cargo: { es: "N/A — inspección de compraventa", en: "N/A — sale & purchase inspection" },
     title: {
@@ -147,9 +147,9 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "tally-sampling-grain-guamache",
+    slug: "tally-sampling-grain-quequen",
     category: "tally-sampling",
-    portSlug: "guamache",
+    portSlug: "quequen",
     year: 2024,
     cargo: { es: "Granos a granel", en: "Bulk grain" },
     title: {

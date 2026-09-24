@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { CheckCircle2 } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import { localePath, buildLanguageAlternates } from "@/lib/i18n/routes";
+import { buildLanguageAlternates } from "@/lib/i18n/routes";
 import { interpolate } from "@/lib/i18n/interpolate";
 import { siteConfig } from "@/lib/site";
 import { Container } from "@/components/ui/Container";
@@ -115,7 +115,7 @@ export default async function AboutPage({
         title={dict.about.cta.title}
         subtitle={dict.about.cta.subtitle}
         buttonLabel={dict.about.cta.button}
-        href={localePath(locale, "contact")}
+        href={siteConfig.contact.whatsappHref}
       />
     </>
   );

@@ -25,10 +25,12 @@ export function Button({
   className?: string;
   children: React.ReactNode;
 } & Omit<ComponentPropsWithoutRef<typeof Link>, "href" | "className">) {
+  const external = /^https?:\/\//.test(href);
   return (
     <Link
       href={href}
       className={`${base} ${variantClasses[variant]} ${className}`}
+      {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       {...props}
     >
       {children}
