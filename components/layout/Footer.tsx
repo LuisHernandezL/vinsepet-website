@@ -55,7 +55,7 @@ export function Footer({
               alt={siteName}
               width={1440}
               height={320}
-              className="h-10 w-auto"
+              className="h-14 w-auto"
             />
           </span>
           <p className="text-sm leading-relaxed">{footer.description}</p>

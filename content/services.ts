@@ -6,12 +6,12 @@ export interface Service {
     | "alert"
     | "fuel"
     | "clipboard"
-    | "radar"
+    | "droplets"
     | "loading"
     | "list"
     | "shield"
     | "container"
-    | "link"
+    | "eye"
     | "search";
   tag: { es: string; en: string };
   title: { es: string; en: string };
@@ -23,17 +23,79 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    slug: "draft-surveys",
-    icon: "ruler",
-    tag: { es: "Cuantificación de carga", en: "Cargo quantification" },
-    title: { es: "Inspecciones de Calado (Draft Surveys)", en: "Draft Surveys" },
+    slug: "loading-discharge-supervision",
+    icon: "loading",
+    tag: { es: "Superintendencia", en: "Superintendence" },
+    title: {
+      es: "Supervisión de Carga y Descarga (Superintendencia)",
+      en: "Loading & Discharge Supervision",
+    },
     summary: {
-      es: "Determinación precisa del peso de carga a granel mediante lectura de calados y cálculos hidrostáticos.",
-      en: "Precise bulk-cargo weight determination through draft readings and hydrostatic calculations.",
+      es: "Superintendencia de carga a tiempo completo durante toda la operación de carga o descarga.",
+      en: "Full-time cargo superintendence throughout the entire loading or discharge operation.",
     },
     description: {
-      es: "Realizamos lecturas de calado inicial y final, densidad del agua, correcciones de asiento y escora, y cálculo de desplazamiento conforme a las tablas hidrostáticas del buque, entregando un peso de carga trazable y defendible ante reclamos.",
-      en: "We perform initial and final draft readings, water density checks, trim and list corrections, and displacement calculations against the vessel's hydrostatic tables, delivering a traceable cargo weight that holds up under claims.",
+      es: "Supervisamos ritmo de carga, estabilidad, segregación, estiba y cumplimiento del plan de carga, actuando como representante técnico de armadores, operadores portuarios o dueños de la carga en muelle.",
+      en: "We supervise loading rate, stability, segregation, stowage and adherence to the stowage plan, acting on the quay as the technical representative of owners, terminal operators or cargo interests.",
+    },
+  },
+  {
+    slug: "loss-control",
+    icon: "eye",
+    tag: { es: "Prevención de pérdidas", en: "Loss prevention" },
+    title: { es: "Loss Control", en: "Loss Control" },
+    summary: {
+      es: "Control y seguimiento de la carga a lo largo de la cadena logística para prevenir mermas y pérdidas.",
+      en: "Cargo monitoring along the supply chain to prevent shortages and losses.",
+    },
+    description: {
+      es: "Supervisamos cada punto de transferencia (terminal, barcaza, buque y tanques), verificamos cantidades, sellos y condiciones de manipuleo, e identificamos a tiempo las diferencias para reducir mermas y respaldar eventuales reclamos.",
+      en: "We monitor every transfer point (terminal, barge, vessel and tanks), verify quantities, seals and handling conditions, and flag discrepancies early to reduce shortages and support any claims.",
+    },
+  },
+  {
+    slug: "preloading-inspection",
+    icon: "search",
+    tag: { es: "Preloading", en: "Preloading" },
+    title: { es: "Inspecciones de Preloading", en: "Preloading Inspections" },
+    summary: {
+      es: "Verificación de la condición de la carga y del buque antes del inicio de la carga.",
+      en: "Verification of cargo and vessel condition before loading commences.",
+    },
+    description: {
+      es: "Inspeccionamos la condición de la carga en muelle o almacén, registramos daños preexistentes con evidencia fotográfica y verificamos que el buque esté apto para recibirla, dejando una línea base clara ante futuros reclamos.",
+      en: "We inspect cargo condition on the quay or in the warehouse, record pre-existing damage with photographic evidence and verify the vessel is fit to receive it, setting a clear baseline against future claims.",
+    },
+  },
+  {
+    slug: "hold-cleanliness-hose-test",
+    icon: "droplets",
+    tag: { es: "Pre-embarque", en: "Pre-loading" },
+    title: {
+      es: "Limpieza de Bodegas y Hose Test",
+      en: "Hold Cleanliness & Hose Test",
+    },
+    summary: {
+      es: "Certificación de limpieza de bodegas y hose test de escotillas antes de cargar.",
+      en: "Hold cleanliness certification and hatch-cover hose testing prior to loading.",
+    },
+    description: {
+      es: "Inspeccionamos bodegas según el estándar requerido por la carga (grano, azúcar, cemento) y ejecutamos el hose test de las juntas de escotilla, previniendo el ingreso de agua de mar o lluvia durante el tránsito.",
+      en: "We inspect holds against the standard the cargo requires (grain, sugar, cement) and run hose tests on hatch cover joints, preventing seawater or rainwater ingress during the voyage.",
+    },
+  },
+  {
+    slug: "outturn-inspections",
+    icon: "list",
+    tag: { es: "Control de carga", en: "Cargo control" },
+    title: { es: "Outturn Inspections", en: "Outturn Inspections" },
+    summary: {
+      es: "Verificación de cantidad y condición de la carga al momento de la descarga.",
+      en: "Verification of cargo quantity and condition at discharge.",
+    },
+    description: {
+      es: "Controlamos la carga durante la descarga, comparamos lo recibido contra los documentos de embarque y registramos faltantes, sobrantes o daños con reporte diario y evidencia fotográfica.",
+      en: "We check cargo throughout discharge, compare what is received against the shipping documents and record shortages, overages or damage with daily reporting and photographic evidence.",
     },
   },
   {
@@ -79,54 +141,6 @@ export const services: Service[] = [
     },
   },
   {
-    slug: "hold-cleanliness-uttt",
-    icon: "radar",
-    tag: { es: "Pre-embarque", en: "Pre-loading" },
-    title: {
-      es: "Limpieza de Bodegas y Prueba Ultrasónica de Estanqueidad",
-      en: "Hold Cleanliness / Hatch Cover Ultrasonic Tightness Tests",
-    },
-    summary: {
-      es: "Certificación de limpieza de bodegas y prueba ultrasónica de hermeticidad de escotillas antes de cargar.",
-      en: "Hold cleanliness certification and ultrasonic hatch-cover tightness testing prior to loading.",
-    },
-    description: {
-      es: "Inspeccionamos bodegas según el estándar requerido por la carga (grano, azúcar, cemento) y ejecutamos pruebas ultrasónicas (UTTT) de las juntas de escotilla, previniendo el ingreso de agua de mar o lluvia durante el tránsito.",
-      en: "We inspect holds against the standard the cargo requires (grain, sugar, cement) and run ultrasonic tightness tests (UTTT) on hatch cover joints, preventing seawater or rainwater ingress during the voyage.",
-    },
-  },
-  {
-    slug: "loading-discharge-supervision",
-    icon: "loading",
-    tag: { es: "Superintendencia", en: "Superintendence" },
-    title: {
-      es: "Supervisión de Carga y Descarga (Superintendencia)",
-      en: "Pre-loading / Loading & Discharge Supervision",
-    },
-    summary: {
-      es: "Superintendencia de carga a tiempo completo durante toda la operación de carga o descarga.",
-      en: "Full-time cargo superintendence throughout the entire loading or discharge operation.",
-    },
-    description: {
-      es: "Supervisamos ritmo de carga, estabilidad, segregación, estiba y cumplimiento del plan de carga, actuando como representante técnico de armadores, operadores portuarios o dueños de la carga en muelle.",
-      en: "We supervise loading rate, stability, segregation, stowage and adherence to the stowage plan, acting on the quay as the technical representative of owners, terminal operators or cargo interests.",
-    },
-  },
-  {
-    slug: "tally-sampling",
-    icon: "list",
-    tag: { es: "Control de carga", en: "Cargo control" },
-    title: { es: "Conteo (Tally) y Muestreo de Carga", en: "Tally & Cargo Sampling" },
-    summary: {
-      es: "Conteo independiente de bultos/unidades y muestreo representativo de carga a granel o general.",
-      en: "Independent piece/unit tallying and representative sampling of bulk or general cargo.",
-    },
-    description: {
-      es: "Ejecutamos conteo turno a turno con reporte diario, y tomamos muestras representativas siguiendo procedimientos reconocidos internacionalmente para análisis de calidad, humedad o granulometría.",
-      en: "We run shift-by-shift tallying with daily reporting, and draw representative samples following internationally recognised procedures for quality, moisture or grading analysis.",
-    },
-  },
-  {
     slug: "pi-hm-condition",
     icon: "shield",
     tag: { es: "P&I / Casco y Máquinas", en: "P&I / H&M" },
@@ -155,31 +169,17 @@ export const services: Service[] = [
     },
   },
   {
-    slug: "lashing-securing",
-    icon: "link",
-    tag: { es: "Trincaje", en: "Securing" },
-    title: { es: "Inspecciones de Trincaje y Estiba", en: "Lashing & Securing Surveys" },
+    slug: "draft-surveys",
+    icon: "ruler",
+    tag: { es: "Cuantificación de carga", en: "Cargo quantification" },
+    title: { es: "Inspecciones de Calado (Draft Surveys)", en: "Draft Surveys" },
     summary: {
-      es: "Verificación del trincaje y aseguramiento de carga de proyecto, breakbulk y sobre cubierta.",
-      en: "Verification of lashing and securing for project, breakbulk and on-deck cargo.",
+      es: "Determinación precisa del peso de carga a granel mediante lectura de calados y cálculos hidrostáticos.",
+      en: "Precise bulk-cargo weight determination through draft readings and hydrostatic calculations.",
     },
     description: {
-      es: "Revisamos el plan de trincaje contra el Manual de Estiba y Trincaje (CSM) del buque, la resistencia de los elementos de sujeción y su cumplimiento antes de zarpar, reduciendo el riesgo de corrimiento de carga en tránsito.",
-      en: "We check the lashing plan against the vessel's Cargo Securing Manual (CSM), the strength of the securing gear and compliance before departure, reducing the risk of cargo shift in transit.",
-    },
-  },
-  {
-    slug: "pre-purchase-inspection",
-    icon: "search",
-    tag: { es: "Compraventa", en: "Sale & purchase" },
-    title: { es: "Inspecciones Previas a la Compra", en: "Pre-purchase Vessel Inspections" },
-    summary: {
-      es: "Evaluación técnica integral del buque antes de una operación de compraventa.",
-      en: "Comprehensive technical assessment of a vessel ahead of a sale & purchase transaction.",
-    },
-    description: {
-      es: "Inspeccionamos casco, maquinaria, equipos de carga, certificados y condición general, entregando un informe objetivo que soporta la decisión de compra y la negociación de precio.",
-      en: "We inspect hull, machinery, cargo gear, certificates and general condition, delivering an objective report that supports the purchase decision and price negotiation.",
+      es: "Realizamos lecturas de calado inicial y final, densidad del agua, correcciones de asiento y escora, y cálculo de desplazamiento conforme a las tablas hidrostáticas del buque, entregando un peso de carga trazable y defendible ante reclamos.",
+      en: "We perform initial and final draft readings, water density checks, trim and list corrections, and displacement calculations against the vessel's hydrostatic tables, delivering a traceable cargo weight that holds up under claims.",
     },
   },
 ];
