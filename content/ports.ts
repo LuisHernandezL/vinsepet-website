@@ -11,5 +11,5 @@ export const ports: Port[] = [
   { slug: "bahia-blanca", name: "Bahía Blanca", country: { es: "Argentina", en: "Argentina" } },
   { slug: "rosario-san-lorenzo", name: "Rosario / San Lorenzo", country: { es: "Argentina", en: "Argentina" } },
   { slug: "zarate-campana", name: "Zárate / Campana", country: { es: "Argentina", en: "Argentina" } },
-  { slug: "quequen", name: "Necochea / Quequén", country: { es: "Argentina", en: "Argentina" } },
+  { slug: "quequen", name: "TRP / Zona comùn La Plata", country: { es: "Argentina", en: "Argentina" } },
 ];
